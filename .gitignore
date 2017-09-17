@@ -1,0 +1,10 @@
+#only update .c .h .txt Makefile
+
+#ignore all file
+*
+
+#excepts these
+!*.*
+!Makefile
+!*/
+!*.txt
